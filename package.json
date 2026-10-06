@@ -1,0 +1,8 @@
+{
+  "name": "storefront-invoice-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "node --loader ts-node/esm src/invoice_service.ts", "test": "node --loader ts-node/esm src/invoice_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"@types/node": "^22.0.0", "ts-node": "^10.9.2", "typescript": "^5.6.0"}
+}

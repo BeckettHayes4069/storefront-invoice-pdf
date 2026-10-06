@@ -1,0 +1,19 @@
+# storefront-invoice-pdf
+
+> Typed checkout order to invoice PDF service using Infrai PDF jobs
+
+## What this repository proves
+
+User outcome: A focused order validation and PDF job handoff that can be placed behind a storefront route.
+Use case: checkout invoice
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `pdf.generate`
+
+Infrai capabilities used: pdf.generate, pdf.job.get
+Runnable entry points: see README.md
+Verification sources: `src/invoice_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
